@@ -1,0 +1,22 @@
+{
+  "name": "node_auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zoho": "node zoho.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "nodemon": "https://github.com/remy/nodemon.git",
+    "openurl": "^1.1.1",
+    "puppeteer": "^10.1.0"
+  },
+  "bin": {
+    "execute": "index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
